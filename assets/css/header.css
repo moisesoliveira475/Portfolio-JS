@@ -3,11 +3,51 @@
     flex-direction: column;
     align-items: center;
 }
+
 .header > h1 {
     font-family: "Neue Machina";
 }
+
 .header .my-photo {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.information p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.125rem;
+}
+
+.information p::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat ;
+    margin-right: .5rem;
+}
+
+.information .job::before {
+    background-image: url(../img/icons/job.svg);
+}
+.information .location::before {
+    background-image: url(../img/icons/location.svg);
+}
+.information .mail::before {
+    background-image: url(../img/icons/mail.svg);
+}
+.information .number::before {
+    background-image: url(../img/icons/number.svg);
 }
