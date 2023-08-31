@@ -10,6 +10,16 @@ body {
     background-color: #000;
     color: #fff;
 }
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .main {
     padding: 1rem;
     margin: 1rem;

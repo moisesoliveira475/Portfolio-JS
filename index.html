@@ -17,32 +17,122 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/acordeon.css">
+    <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <link rel="stylesheet" href="./assets/css/experience.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
 </head>
 <body>
-    <div class="main">
+    <main class="main">
     <header class="header">
             <img class="my-photo" src="./assets/img/my-photo.jpeg" alt="Foto de Moisés Santos">
                 <h1>Olá,<br> eu sou o Moisés</h1>
                     <div class="information">
-                        <p class="job">Estagiário</p>
-                        <p class="location">São Paulo - BR</p>
-                        <p class="number">11967587465</p>
-                        <p class="mail">moises475oliveira@gmail.com</p>
+                        <p class="job">
+                            <a target="_blank" href="https://www.linkedin.com/in/moises-santos-de-oliveira">Estagiário</a>
+                        </p>
+                        <p class="location">
+                            <a target="_blank" href="https://www.google.com/maps?q=Osasco+São+Paulo">São Paulo - BR</a>
+                        </p>
+                        <p class="number">
+                            <a target="_blank" href="tel:11967587465">11967587465</a>
+                        </p>
+                        <p class="mail">
+                            <a target="_blank" href="mailto:moises475oliveira@gmail.com">moises475oliveira@gmail.com</a>
+                        </p>
                     </div>
         </header>
         
         <section class="acordeon open">
             <button class="trigger" type="button">
-                    Idiomas
+                    <h2>Skills</h2>
             </button>
                 <div class="content">
-                    <ul>
+                      <div class="skills">
+                          <section class="tools">
+                            <h3>Tecnologias</h3>
+                            <ul>
+                                <li>
+                                    <img src="./assets/img/icons/skills/nodejs.svg" alt="node" title="node">
+                                </li>
+                                <li>
+                                    <img src="./assets/img/icons/skills/aws.svg" alt="aws" title="aws">
+                                </li>
+                                <li>
+                                    <img src="./assets/img/icons/skills/python.svg" alt="python" title="python">
+                                </li>
+                                <li>
+                                    <img src="./assets/img/icons/skills/react.svg" alt="react" title="react">
+                                </li>
+                            </ul>
+                          </section>
+                          <section class="personal">
+                            <h3>Habilidades pessoais</h3>
+                            <ul>
+                                <li>Comunicação</li>
+                                <li>Flexibilidade</li>
+                                <li>Aprendizado rápido</li>
+                            </ul>
+                          </section>
+                      </div>    
+                </div>
+        </section>
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                    <h2>Idiomas</h2>
+            </button>
+                <div class="content">
+                    <ul class="languages">
                         <li>Português</li>
                         <li>English</li>
                     </ul>
                 </div>
         </section>
-    </div>
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                    <h2>Portfólio</h2>
+            </button>
+                <div class="content">
+                    <ul class="portfolio">
+                        <li>
+                            <h3 class="title github">title</h3>
+                            <a target="_blank" href="https://www.example.com">www.google.com</a>
+                        </li>
+                        <li>
+                            <h3 class="title github">title</h3>
+                            <a target="_blank" href="https://www.example.com">www.google.com</a>
+                        </li>
+                        <li>
+                            <h3 class="title github">title</h3>
+                            <a target="_blank" href="https://www.example.com">www.google.com</a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                    <h2>Experiência profissional</h2>
+            </button>
+                <div class="content">
+                    <ul class="experience">
+                        <li>
+                            <h3 class="title">Estagio</h3>
+                            <p class="period">2/1/20 - current</p>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem harum officiis rerum eveniet sequi quasi quia iusto eaque libero, totam laborum perspiciatis ab. Sit, est illum amet vel voluptate ab.
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="title">Estagio</h3>
+                            <p class="period">2/1/20 - current</p>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem harum officiis rerum eveniet sequi quasi quia iusto eaque libero, totam laborum perspiciatis ab. Sit, est illum amet vel voluptate ab.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+    </main>
 
     <script src="./assets/js/acordeon.js"></script>
 
